@@ -1,0 +1,63 @@
+```
+m7
+├── js                              # Core JavaScript library root
+│   ├── lib                         # Primitive / modular building blocks (your main focus)
+│   │   ├── primitive
+│   │   │   ├── dom
+│   │   │   │   ├── eventdelegator
+│   │   │   │   │   Name: m7-js-lib-primitive-dom-eventdelegator
+│   │   │   │   │   Link: https://github.com/linearblade/m7-js-lib-primitive-dom-eventdelegator
+│   │   │   │   │   Purpose: A selector-aware DOM event delegation primitive built on top of native event bubbling and capture that routes events through explicit selectors and policies.
+│   │   │   │   └── changeobserver
+│   │   │   │       Name: m7-js-lib-primitive-dom-changeobserver
+│   │   │   │       Link: https://github.com/linearblade/m7-js-lib-primitive-dom-changeobserver
+│   │   │   │       Purpose: (none)
+│   │   │   ├── log
+│   │   │   │   Name: m7-js-lib-primitive-log
+│   │   │   │   Link: https://github.com/linearblade/m7-js-lib-primitive-log
+│   │   │   │   Purpose: (none)
+│   │   │   └── interval
+│   │   │       Name: m7-js-lib-interval
+│   │   │       Link: https://github.com/linearblade/m7-js-lib-interval
+│   │   │       Purpose: Precise, cancelable timers & schedulers
+│   │   ├── tree                    # Specialized inspector tool
+│   │   │   Name: m7-js-lib-tree
+│   │   │   Link: https://github.com/linearblade/m7-js-lib-tree
+│   │   │   Purpose: Runtime JavaScript object tree inspector and console for exploring large APIs and object graphs.
+│   │   └── 098                     # Possibly experimental / misc primitive
+│   │       Name: m7-js-lib-098
+│   │       Link: https://github.com/linearblade/m7-js-lib-098
+│   │       Purpose: (none)
+│   └── (loose / non-lib prefixed)  # Older m7 JS tools before formal lib boundary
+│       ├── workspace
+│       │   Name: m7-js-workspace
+│       │   Link: https://github.com/linearblade/m7-js-workspace
+│       │   Purpose: (none)
+│       ├── session-normalizer
+│       │   Name: m7-js-session-normalizer
+│       │   Link: https://github.com/linearblade/m7-js-session-normalizer
+│       │   Purpose: (none)
+│       ├── bootstrap
+│       │   Name: m7BootStrap
+│       │   Link: https://github.com/linearblade/m7BootStrap
+│       │   Purpose: (none)
+│       └── fetch
+│           Name: m7Fetch
+│           Link: https://github.com/linearblade/m7Fetch
+│           Purpose: (none)
+├── (other-js)                      # Standalone / non-m7 prefixed JS projects
+│   ├── PageCement
+│   │   Name: PageCement
+│   │   Link: https://github.com/linearblade/PageCement
+│   │   Purpose: (none)
+│   └── agility-trial
+│       Name: agility-trial
+│       Link: https://github.com/linearblade/agility-trial
+│       Purpose: alacritysim.com agility trials information docusaur for pre game construction research
+└── systems                         # Non-JS / lower-level
+    └── siglatch
+        Name: siglatch
+        Link: https://github.com/linearblade/siglatch
+        Purpose: A lightweight, cryptographically-authenticated UDP daemon for remote access, logging, and job control.
+
+        ```
