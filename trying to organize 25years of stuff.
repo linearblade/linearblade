@@ -1,0 +1,86 @@
+# M7 — Low-Level Primitives & Systems Toolkit
+
+**25+ years of battle-tested, bloat-free JavaScript and systems tools**  
+Now open-sourcing the core primitives that power real production systems.
+
+Focus: Minimal, composable building blocks — DOM mastery, event/observation, timing, logging, tree inspection, networking, and secure daemons.  
+No frameworks. No dependencies where possible. Performance and clarity first.
+
+**Current status**  
+- `m7-js` core library: v0.98 live (most primitives online)  
+- v1.0 release targeted shortly — full docs, npm packages, examples
+
+Connect:  
+X: [@thegrimscalper](https://x.com/thegrimscalper)  
+Website: [m7.org](https://m7.org)
+
+> “Tools should disappear into the work — not fight for attention.”
+
+## JavaScript Ecosystem (m7-js)
+
+### Core Library: m7-js.lib.*
+The heart of M7 — modular primitives under `lib.primitive.*` namespace (dashes → dots in logical path).
+
+- **lib.primitive.dom.eventdelegator**  
+  [m7-js-lib-primitive-dom-eventdelegator](https://github.com/linearblade/m7-js-lib-primitive-dom-eventdelegator)  
+  Selector-aware DOM event delegation primitive built on native bubbling/capture. Routes events through explicit selectors and policies — no ad-hoc logic.
+
+- **lib.primitive.dom.changeobserver**  
+  [m7-js-lib-primitive-dom-changeobserver](https://github.com/linearblade/m7-js-lib-primitive-dom-changeobserver)  
+  Selector-aware DOM change reporting primitive using MutationObserver. Tracks membership transitions (added/removed/changed/changeAway) in batches — reports facts, imposes no behavior.
+
+- **lib.primitive.log**  
+  [m7-js-lib-primitive-log](https://github.com/linearblade/m7-js-lib-primitive-log)  
+  (No description yet — lightweight logging primitive)
+
+- **lib.primitive.interval**  
+  [m7-js-lib-interval](https://github.com/linearblade/m7-js-lib-interval)  
+  Precise, cancelable timers & schedulers
+
+- **lib.tree**  
+  [m7-js-lib-tree](https://github.com/linearblade/m7-js-lib-tree)  
+  Runtime JavaScript object tree inspector and console for exploring large APIs and object graphs. Great for debugging massive/undocumented structures.
+
+- **lib.098**  
+  [m7-js-lib-098](https://github.com/linearblade/m7-js-lib-098)  
+  (No description yet — experimental/misc primitive)
+
+### Loose / Supporting Tools (pre-formal lib boundary)
+Older m7-prefixed utilities — still useful, but not yet migrated to full `lib.*` namespace.
+
+- **workspace**  
+  [m7-js-workspace](https://github.com/linearblade/m7-js-workspace)  
+  (No description yet — workspace/environment manager)
+
+- **session-normalizer**  
+  [m7-js-session-normalizer](https://github.com/linearblade/m7-js-session-normalizer)  
+  (No description yet — session/cookie/state normalization)
+
+- **bootstrap**  
+  [m7BootStrap](https://github.com/linearblade/m7BootStrap)  
+  (No description yet — app bootstrapping/init)
+
+- **fetch**  
+  [m7Fetch](https://github.com/linearblade/m7Fetch)  
+  (No description yet — enhanced fetch wrapper)
+
+### Standalone JS Projects
+Non-m7 prefixed or domain-specific.
+
+- **PageCement**  
+  [PageCement](https://github.com/linearblade/PageCement)  
+  (No description yet — possibly page state persistence)
+
+- **agility-trial**  
+  [agility-trial](https://github.com/linearblade/agility-trial)  
+  alacritysim.com agility trials information docusaur for pre-game construction research
+
+## Systems / Non-JS
+
+- **siglatch**  
+  [siglatch](https://github.com/linearblade/siglatch)  
+  A lightweight, cryptographically-authenticated UDP daemon for remote access, logging, and job control.  
+  (24 stars — production-grade networking/crypto in C)
+
+<details>
+<summary>Full m7 Namespace Tree (collapsed for scannability)</summary>
