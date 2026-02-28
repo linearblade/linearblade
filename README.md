@@ -1,61 +1,39 @@
+# M7 Projects by `linearblade`
 
+Low-level JavaScript primitives and systems tooling built from 25+ years of production work.
 
-### Step-by-Step: Create Your Profile README (The "Project Page")
-1. Go to GitHub → Click the green **+ New** button (top-right) → **New repository**.
+## Start Here
 
-# M7 — Low-Level Primitives & Systems Toolkits
+- Full repository catalog (language-first): [PROJECTS.md](./PROJECTS.md)
+- Core foundation: [`m7-js-lib`](https://github.com/linearblade/m7-js-lib)
+- Showcase runtime: [`m7-js-lib-app-active-tags`](https://github.com/linearblade/m7-js-lib-app-active-tags)
 
-**25+ years of battle-tested, bloat-free tools** — now being open-sourced.
+## Current Direction
 
-I build minimal, composable primitives so you can construct reliable systems without framework tax.  
-Focus: DOM mastery, event handling, observation, logging, timing, tree traversal, session normalization, fetch wrappers, and secure inter-process comms (UDP daemon in C).
+The current focus is finishing `m7-js-lib` and `m7-js-lib-app-active-tags`.
 
-Currently releasing the **m7-js-lib-*** family — lightweight ES modules for modern browsers/Node.
+`m7-js-lib` exports a singleton `lib` utility runtime. Other m7 modules attach to that `lib` object so projects can compose behavior without framework lock-in.
 
-## Why These Primitives?
-- Zero dependencies (most are <1KB gzipped)
-- Performance-first (no polyfills bloat, native APIs leveraged)
-- Production-hardened (used in real businesses, not demos)
-- Documented for longevity — JSDoc + examples
+## Stack Model
 
-Pinned highlights:
-- **siglatch** — Cryptographically-authenticated UDP daemon for remote control/logging
-- **m7-js-lib-tree** — Interactive object tree explorer for massive APIs
-- **m7-js-lib-interval** — Precise, cancelable timers & schedulers
-- **m7-js-lib-primitive-dom-eventdelegator** — Efficient delegation without frameworks
-<!--
-## Quick Start (Example Usage)
-```js
-import { createEventDelegator } from 'm7-js-lib-primitive-dom-eventdelegator';
-
-// Delegate clicks on dynamic elements
-const delegator = createEventDelegator(document.body);
-delegator.on('click', '.dynamic-btn', (e) => {
-  console.log('Clicked dynamic button!', e.target);
-});
+```text
+m7-js-lib (core lib object)
+  -> primitives (DOM, observation, logging, interval, tree)
+  -> app runtimes (active-tags)
+  -> runtime/network support (m7BootStrap, m7Fetch)
+  -> site/product modules
 ```
 
-## Ecosystem Overview
-| Library | Purpose | Size (gzipped) | Stars | Link |
-|---------|---------|----------------|-------|------|
-| m7-js-lib-tree | Deep object inspection & console viz | ~2KB | - | [Repo](https://github.com/linearblade/m7-js-lib-tree) |
-| m7-js-lib-interval | Advanced timing primitives | ~1.5KB | - | [Repo](https://github.com/linearblade/m7-js-lib-interval) |
-| siglatch | Secure UDP daemon (C) | - | 24 | [Repo](https://github.com/linearblade/siglatch) |
-| ... | ... | ... | ... | ... |
+## Migration Notes
 
-More coming — full m7 suite targeted for Q2 2026 release.
+- `m7BootStrap` and `m7Fetch` keep legacy names for now.
+- Older projects are being rolled into `m7-js-lib` or superseded by newer `m7-js-lib-*` modules.
+- Upcoming C repositories will be grouped under the `C / Systems` section in `PROJECTS.md`.
 
-## Skills & Philosophy
-- Architect-level JS (internals, perf, no-framework DOM)
-- Systems programming (C networking/crypto)
-- Anti-bloat: Reinvent only when better
-- Documentation-first approach
+## Connect
 
-  -->
+- GitHub: [github.com/linearblade](https://github.com/linearblade)
+- X: [@thegrimscalper](https://x.com/thegrimscalper)
+- Website: [m7.org](https://m7.org)
 
-Connect:  
-X: [@thegrimscalper](https://x.com/thegrimscalper)  
-Site: [m7.org](https://m7.org)
-
-> "Tools should disappear into the work — not fight for attention."
-
+> Tools should disappear into the work, not fight for attention.

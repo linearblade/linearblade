@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M7 | Low-Level Primitives & Systems Toolkit</title>
+    <meta
+      name="description"
+      content="M7: battle-tested JavaScript primitives and systems tooling by linearblade."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="backdrop" aria-hidden="true">
+      <div class="blob blob-a"></div>
+      <div class="blob blob-b"></div>
+      <div class="grid-mask"></div>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#top">M7 // linearblade</a>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#principles">Principles</a>
+        <a href="#connect">Connect</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <p class="eyebrow">LOW-LEVEL PRIMITIVES & SYSTEMS TOOLKITS</p>
+        <h1>25+ years of tools that stay out of your way.</h1>
+        <p class="lead">
+          Minimal JavaScript modules and systems components for teams that value
+          direct control, predictable behavior, and performance under load.
+        </p>
+        <div class="hero-actions">
+          <a
+            class="button button-primary"
+            href="https://github.com/linearblade"
+            target="_blank"
+            rel="noreferrer"
+            >View GitHub</a
+          >
+          <a
+            class="button button-ghost"
+            href="https://m7.org"
+            target="_blank"
+            rel="noreferrer"
+            >Visit m7.org</a
+          >
+        </div>
+        <div class="hero-metrics">
+          <article>
+            <p class="metric-value">0 deps</p>
+            <p class="metric-label">on most primitives</p>
+          </article>
+          <article>
+            <p class="metric-value">v0.98</p>
+            <p class="metric-label">core library live</p>
+          </article>
+          <article>
+            <p class="metric-value">v1.0</p>
+            <p class="metric-label">targeting 2026</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Released Repositories</p>
+          <h2>Build with composable pieces, not framework lock-in.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="card">
+            <p class="card-type">Flagship</p>
+            <h3>m7-js-lib-primitive-dom-eventdelegator</h3>
+            <p>
+              Selector-aware event delegation primitive based on native bubbling
+              and capture.
+            </p>
+            <a
+              href="https://github.com/linearblade/m7-js-lib-primitive-dom-eventdelegator"
+              target="_blank"
+              rel="noreferrer"
+              >Open repo</a
+            >
+          </article>
+
+          <article class="card">
+            <p class="card-type">Inspector</p>
+            <h3>m7-js-lib-tree</h3>
+            <p>
+              Runtime object tree explorer for large API surfaces and deep debug
+              sessions.
+            </p>
+            <a
+              href="https://github.com/linearblade/m7-js-lib-tree"
+              target="_blank"
+              rel="noreferrer"
+              >Open repo</a
+            >
+          </article>
+
+          <article class="card">
+            <p class="card-type">Timing</p>
+            <h3>m7-js-lib-interval</h3>
+            <p>
+              Precise, cancelable scheduling primitives for predictable runtime
+              behavior.
+            </p>
+            <a
+              href="https://github.com/linearblade/m7-js-lib-interval"
+              target="_blank"
+              rel="noreferrer"
+              >Open repo</a
+            >
+          </article>
+
+          <article class="card">
+            <p class="card-type">Observer</p>
+            <h3>m7-js-lib-primitive-dom-changeobserver</h3>
+            <p>
+              MutationObserver-based selector transition reporting with no
+              framework assumptions.
+            </p>
+            <a
+              href="https://github.com/linearblade/m7-js-lib-primitive-dom-changeobserver"
+              target="_blank"
+              rel="noreferrer"
+              >Open repo</a
+            >
+          </article>
+
+          <article class="card">
+            <p class="card-type">Systems</p>
+            <h3>siglatch</h3>
+            <p>
+              Cryptographically-authenticated UDP daemon for remote control,
+              logging, and job control.
+            </p>
+            <a
+              href="https://github.com/linearblade/siglatch"
+              target="_blank"
+              rel="noreferrer"
+              >Open repo</a
+            >
+          </article>
+
+          <article class="card">
+            <p class="card-type">Support</p>
+            <h3>m7Fetch · m7BootStrap · m7-js-workspace</h3>
+            <p>
+              Supporting utilities from earlier releases still useful across
+              production stacks.
+            </p>
+            <a
+              href="https://github.com/linearblade?tab=repositories"
+              target="_blank"
+              rel="noreferrer"
+              >Browse all repos</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="principles">
+        <div class="section-heading">
+          <p class="eyebrow">Engineering Principles</p>
+          <h2>Directness over abstraction theater.</h2>
+        </div>
+        <div class="principle-grid">
+          <article>
+            <h3>No framework tax</h3>
+            <p>Native APIs first. Dependencies only when they earn their keep.</p>
+          </article>
+          <article>
+            <h3>Performance by default</h3>
+            <p>Lightweight modules, tight loops, and observable runtime behavior.</p>
+          </article>
+          <article>
+            <h3>Composable primitives</h3>
+            <p>Small, orthogonal pieces you can combine without hidden coupling.</p>
+          </article>
+          <article>
+            <h3>Production-hardened</h3>
+            <p>Patterns tested in real systems, not demo-only environments.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="connect">
+        <div class="section-heading">
+          <p class="eyebrow">Connect</p>
+          <h2>Follow releases and upcoming docs.</h2>
+        </div>
+        <div class="connect-links">
+          <a href="https://x.com/thegrimscalper" target="_blank" rel="noreferrer"
+            >X / @thegrimscalper</a
+          >
+          <a href="https://m7.org" target="_blank" rel="noreferrer">m7.org</a>
+          <a href="https://github.com/linearblade" target="_blank" rel="noreferrer"
+            >github.com/linearblade</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built for GitHub Pages. Keep it fast. Keep it understandable.</p>
+    </footer>
+  </body>
+</html>
