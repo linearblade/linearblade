@@ -1,6 +1,6 @@
 # M7 Projects by `linearblade`
 
-Low-level JavaScript primitives and systems tooling built from 25+ years of production work.
+Founder-led, CTO/TPM-oriented software architecture and systems engineering across JavaScript, PHP, Perl, Python, C, and C++, built from 25+ years of production work.
 
 ## Start Here
 
