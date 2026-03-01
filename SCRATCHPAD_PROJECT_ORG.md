@@ -6,14 +6,22 @@ M7 is an emergent frontend framework: composable primitives and runtime modules 
 
 ## Supporting Repos
 
-- Core runtime: [`m7-js-lib`](https://github.com/linearblade/m7-js-lib)
-- Runtime loader: [`m7BootStrap`](https://github.com/linearblade/m7BootStrap)
-- Fetch/network tooling (used by BootStrap): [`m7Fetch`](https://github.com/linearblade/m7Fetch)
-- DOM event primitive: [`m7-js-lib-primitive-dom-eventdelegator`](https://github.com/linearblade/m7-js-lib-primitive-dom-eventdelegator)
-- DOM change primitive: [`m7-js-lib-primitive-dom-changeobserver`](https://github.com/linearblade/m7-js-lib-primitive-dom-changeobserver)
-- Interval/scheduling primitive: [`m7-js-lib-primitive-interval`](https://github.com/linearblade/m7-js-lib-primitive-interval)
-- Log primitive: [`m7-js-lib-primitive-log`](https://github.com/linearblade/m7-js-lib-primitive-log)
-- Workspace primitive utility: [`m7-js-workspace`](https://github.com/linearblade/m7-js-workspace)
-- Runtime inspection tooling: [`m7-js-lib-tree`](https://github.com/linearblade/m7-js-lib-tree)
-- Session abstraction utility: [`m7-js-session-normalizer`](https://github.com/linearblade/m7-js-session-normalizer)
-- Viewport utility: [`PageCement`](https://github.com/linearblade/PageCement)
+### m7-js-lib Layer
+
+- [`m7-js-lib`](https://github.com/linearblade/m7-js-lib): Core singleton runtime (`lib`) that the framework stack builds on.
+- [`m7-js-lib-primitive-dom-eventdelegator`](https://github.com/linearblade/m7-js-lib-primitive-dom-eventdelegator): DOM event delegation primitive for selector-routed behavior.
+- [`m7-js-lib-primitive-dom-changeobserver`](https://github.com/linearblade/m7-js-lib-primitive-dom-changeobserver): DOM change observation primitive for structured mutation reporting.
+- [`m7-js-lib-primitive-interval`](https://github.com/linearblade/m7-js-lib-primitive-interval): Interval/scheduling primitive for controlled async recurring work.
+- [`m7-js-lib-primitive-log`](https://github.com/linearblade/m7-js-lib-primitive-log): Logging primitive for synchronous structured event capture.
+- [`m7-js-workspace`](https://github.com/linearblade/m7-js-workspace): Workspace utility module in the main m7 runtime architecture.
+- [`m7-js-lib-tree`](https://github.com/linearblade/m7-js-lib-tree): Runtime inspection tooling for exploring large object graphs.
+
+### Runtime Loader / Networking
+
+- [`m7BootStrap`](https://github.com/linearblade/m7BootStrap): Runtime package manager for loading, mounting, and unloading modules/content.
+- [`m7Fetch`](https://github.com/linearblade/m7Fetch): Fetch/network/spec/module loading toolkit used by `m7BootStrap`.
+- [`m7-js-session-normalizer`](https://github.com/linearblade/m7-js-session-normalizer): Session abstraction utility for normalized app-facing session state.
+
+### UI Survival Utility
+
+- [`PageCement`](https://github.com/linearblade/PageCement): Viewport control utility that helps lock down UI behavior (zoom/scroll/viewport stability).
