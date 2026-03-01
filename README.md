@@ -10,27 +10,19 @@ Low-level JavaScript primitives and systems tooling built from 25+ years of prod
 - Core foundation: [`m7-js-lib`](https://github.com/linearblade/m7-js-lib)
 - Showcase runtime: [`m7-js-lib-app-active-tags`](https://github.com/linearblade/m7-js-lib-app-active-tags)
 
-## Current Direction
+## Current Projects
 
-The current focus is finishing `m7-js-lib` and `m7-js-lib-app-active-tags`.
+### ActiveTags & M7-JS Ecosystem
 
-`m7-js-lib` exports a singleton `lib` utility runtime. Other m7 modules attach to that `lib` object so projects can compose behavior without framework lock-in.
+[![ActiveTags Banner](./assets/activetags-banner.png)](./M7-JS-LIB.md)
 
-## Stack Model
+Deterministic DOM workflow orchestration and modular runtime architecture for building interactive browser apps without hard framework lock-in.
 
-```text
-m7-js-lib (core lib object)
-  -> primitives (DOM, observation, logging, interval, tree)
-  -> app runtimes (active-tags)
-  -> runtime/network support (m7BootStrap, m7Fetch)
-  -> site/product modules
-```
+### Siglatch
 
-## Migration Notes
+[![Siglatch Banner](./assets/siglatch-banner.png)](./SIGLATCH.md)
 
-- `m7BootStrap` and `m7Fetch` keep legacy names for now.
-- Older projects are being rolled into `m7-js-lib` or superseded by newer `m7-js-lib-*` modules.
-- Upcoming C repositories will be grouped under the `C / Systems` section in `PROJECTS.md`.
+Security-first C daemon for cryptographically authenticated control and signaling over UDP in low-footprint, high-control operating environments.
 
 ## Connect
 
