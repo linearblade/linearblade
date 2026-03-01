@@ -13,6 +13,7 @@ Source snapshot:
 ## Dedicated Project Pages
 
 - [M7-JS-LIB Ecosystem](./M7-JS-LIB.md)
+- [Siglatch](./SIGLATCH.md)
 
 ## JavaScript
 
