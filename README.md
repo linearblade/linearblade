@@ -15,7 +15,7 @@ Low-level JavaScript primitives and systems tooling built from 25+ years of prod
 ### ActiveTags & M7-JS Ecosystem
 
 <a href="./M7-JS-LIB.md">
-  <img src="./assets/activetags-banner.png" alt="ActiveTags Banner" widtht="900" />
+  <img src="./assets/activetags-banner.png" alt="ActiveTags Banner" width="900" />
 </a>
 
 Deterministic DOM workflow orchestration and modular runtime architecture for building interactive browser apps without hard framework lock-in.
