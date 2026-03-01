@@ -1,10 +1,12 @@
-# M7 Project Page
+# M7-JS-LIB Ecosystem
 
 M7 is an emergent frontend framework: composable primitives and runtime modules that scale from utility usage to full app architecture without forcing a single framework model. ActiveTags sits on top of a layered runtime (`m7-js-lib` core + primitives + runtime loading tools), so adoption can stay incremental while still supporting larger, orchestrated browser applications.
 
-![ActiveTags Logo](https://raw.githubusercontent.com/linearblade/m7-js-lib-app-active-tags/master/logo.png)
+[![ActiveTags Logo](https://raw.githubusercontent.com/linearblade/m7-js-lib-app-active-tags/master/logo.png)](https://github.com/linearblade/m7-js-lib-app-active-tags)
 
-Start here: [`m7-js-lib-app-active-tags`](https://github.com/linearblade/m7-js-lib-app-active-tags). It is the most user-facing flag bearer of the M7 stack: deterministic DOM workflow orchestration, a standalone min bundle (`dist/activeTags.standalone.v1.0.min.js`), a simple installation path, and built-in brand assets for demos and presentations. If you are new to M7, ActiveTags is the fastest way to understand how the framework feels in real use.
+Start here: [`m7-js-lib-app-active-tags`](https://github.com/linearblade/m7-js-lib-app-active-tags).
+
+It is the most user-facing flag bearer of the M7 stack: deterministic DOM workflow orchestration, a standalone min bundle (`dist/activeTags.standalone.v1.0.min.js`), a simple installation path, and built-in brand assets for demos and presentations. If you are new to M7, ActiveTags is the fastest way to understand how the framework feels in real use.
 
 ## Supporting Repos
 
