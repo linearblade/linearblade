@@ -13,7 +13,6 @@ The goal is to build complex browser applications without full framework lock-in
 - Core runtime: [`m7-js-lib`](https://github.com/linearblade/m7-js-lib)
 - Showcase app framework: [`m7-js-lib-app-active-tags`](https://github.com/linearblade/m7-js-lib-app-active-tags)
 - Runtime package loading: [`m7BootStrap`](https://github.com/linearblade/m7BootStrap)
-- Systems track (C): [`siglatch`](https://github.com/linearblade/siglatch)
 
 ## Framework Model
 
@@ -84,17 +83,9 @@ Superseded modules retained for reference/compatibility.
 Repos:
 - [`m7-js-lib-098`](https://github.com/linearblade/m7-js-lib-098)
 
-## Systems Track (C)
-
-Description:
-Low-level systems components that complement the JS framework ecosystem.
-
-Repos:
-- [`siglatch`](https://github.com/linearblade/siglatch)
-
 ## Current Focus
 
 - Finish and stabilize `m7-js-lib`.
 - Showcase architecture via `m7-js-lib-app-active-tags`.
 - Keep runtime loading model (`m7BootStrap` + `m7Fetch`) central.
-- Expand systems track with additional C repositories.
+- Keep this page strictly framework-oriented (JavaScript stack only).
