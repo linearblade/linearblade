@@ -4,6 +4,8 @@ Draft only. Do not promote yet.
 
 ## M7: Emergent Frontend Framework
 
+M7 is an emergent frontend framework: composable primitives and runtime modules that can scale from utility usage to full app architecture without forcing a single framework model.
+
 M7 is converging into a framework from the bottom up: primitives first, runtime composition second, app framework layer on top.
 
 The goal is to build complex browser applications without full framework lock-in.
