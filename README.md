@@ -23,7 +23,7 @@ Deterministic DOM workflow orchestration and modular runtime architecture for bu
 ### Siglatch
 
 <a href="./SIGLATCH.md">
-  <img src="./assets/siglatch-logo-clear.png" alt="Siglatch Banner" width="900" />
+  <img src="./assets/siglatch-banner.png" alt="Siglatch Banner" width="900" />
 </a>
 
 Security-first C daemon for cryptographically authenticated control and signaling over UDP in low-footprint, high-control operating environments.
