@@ -17,7 +17,6 @@ Source snapshot:
 | Project | Role | Status | Notes |
 |---|---|---|---|
 | [`m7-js-lib`](https://github.com/linearblade/m7-js-lib) | Core runtime | Active focus | Singleton `lib` foundation for the m7 JS stack |
-| [`m7-js-lib-098`](https://github.com/linearblade/m7-js-lib-098) | Legacy module | Legacy | Superseded by `m7-js-lib`; no longer active |
 
 ### Showcase Apps
 
@@ -40,15 +39,21 @@ Source snapshot:
 
 | Project | Role | Status | Notes |
 |---|---|---|---|
-| [`m7BootStrap`](https://github.com/linearblade/m7BootStrap) | Runtime loader | Active/supporting | Older name, still foundational in stack |
-| [`m7Fetch`](https://github.com/linearblade/m7Fetch) | Network toolkit | Active/supporting | HTTP/spec/module loading utilities |
+| [`m7BootStrap`](https://github.com/linearblade/m7BootStrap) | Runtime package manager/loader | Active/supporting | Dynamic loading and unloading of modules/content/packages; depends on `m7Fetch` |
+| [`m7Fetch`](https://github.com/linearblade/m7Fetch) | Fetch/network toolkit | Active/supporting | HTTP/spec/module fetch tools used by `m7BootStrap` |
 | [`m7-js-session-normalizer`](https://github.com/linearblade/m7-js-session-normalizer) | Session utility | Active | Session normalization utility |
 
 ### Other JavaScript Projects
 
 | Project | Role | Status | Notes |
 |---|---|---|---|
-| [`PageCement`](https://github.com/linearblade/PageCement) | Standalone JS project | Active | Separate from current core focus |
+| [`PageCement`](https://github.com/linearblade/PageCement) | Viewport control utility | Active | Stabilizes page viewport, locks scroll, and prevents zoom-in/out gestures/shortcuts |
+
+### Legacy
+
+| Project | Role | Status | Notes |
+|---|---|---|---|
+| [`m7-js-lib-098`](https://github.com/linearblade/m7-js-lib-098) | Legacy module | Legacy | Superseded by `m7-js-lib`; no longer active |
 
 ## C / Systems
 
