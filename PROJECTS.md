@@ -10,6 +10,10 @@ Source snapshot:
 - GitHub account: `linearblade`
 - Built from GitHub API repo metadata during local catalog generation
 
+## Dedicated Project Pages
+
+- [M7-JS-LIB Ecosystem](./M7-JS-LIB.md)
+
 ## JavaScript
 
 ### Core

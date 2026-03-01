@@ -5,6 +5,7 @@ Low-level JavaScript primitives and systems tooling built from 25+ years of prod
 ## Start Here
 
 - Full repository catalog (language-first): [PROJECTS.md](./PROJECTS.md)
+- Dedicated project page: [M7-JS-LIB.md](./M7-JS-LIB.md)
 - Core foundation: [`m7-js-lib`](https://github.com/linearblade/m7-js-lib)
 - Showcase runtime: [`m7-js-lib-app-active-tags`](https://github.com/linearblade/m7-js-lib-app-active-tags)
 
