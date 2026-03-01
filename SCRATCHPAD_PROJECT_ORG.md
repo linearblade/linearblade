@@ -1,16 +1,17 @@
-# Scratchpad: M7 Project Page Draft
+# M7 Project Page
 
 M7 is an emergent frontend framework: composable primitives and runtime modules that scale from utility usage to full app architecture without forcing a single framework model. ActiveTags sits on top of a layered runtime (`m7-js-lib` core + primitives + runtime loading tools), so adoption can stay incremental while still supporting larger, orchestrated browser applications.
 
 ![ActiveTags Logo](https://raw.githubusercontent.com/linearblade/m7-js-lib-app-active-tags/master/logo.png)
 
-Start here: [`m7-js-lib-app-active-tags`](https://github.com/linearblade/m7-js-lib-app-active-tags). It is the most user-facing flag bearer of the M7 stack: deterministic DOM workflow orchestration, a standalone min bundle (`dist/activeTags.standalone.v1.0.min.js`), simple install path, and built-in brand assets (logo) for presentation/demo use. For new users, this is the fastest way to understand what M7 feels like in practice.
+Start here: [`m7-js-lib-app-active-tags`](https://github.com/linearblade/m7-js-lib-app-active-tags). It is the most user-facing flag bearer of the M7 stack: deterministic DOM workflow orchestration, a standalone min bundle (`dist/activeTags.standalone.v1.0.min.js`), a simple installation path, and built-in brand assets for demos and presentations. If you are new to M7, ActiveTags is the fastest way to understand how the framework feels in real use.
 
 ## Supporting Repos
 
 ### m7-js-lib Layer
 
 - [`m7-js-lib`](https://github.com/linearblade/m7-js-lib): Core singleton runtime (`lib`) that the framework stack builds on.
+- [`m7-js-lib-app-active-tags`](https://github.com/linearblade/m7-js-lib-app-active-tags): Flagship app-layer runtime built on top of `m7-js-lib`.
 - [`m7-js-lib-primitive-dom-eventdelegator`](https://github.com/linearblade/m7-js-lib-primitive-dom-eventdelegator): DOM event delegation primitive for selector-routed behavior.
 - [`m7-js-lib-primitive-dom-changeobserver`](https://github.com/linearblade/m7-js-lib-primitive-dom-changeobserver): DOM change observation primitive for structured mutation reporting.
 - [`m7-js-lib-primitive-interval`](https://github.com/linearblade/m7-js-lib-primitive-interval): Interval/scheduling primitive for controlled async recurring work.
