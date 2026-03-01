@@ -7,8 +7,9 @@ I build low-level, production-oriented software systems with an emphasis on comp
 - Architecture and framework design: modular runtime architecture, progressive adoption strategy, and integration patterns that avoid hard lock-in.
 - JavaScript ecosystem engineering: frontend runtime primitives, DOM/event orchestration, dynamic module loading, and framework-layer app tooling.
 - PHP platform work: utility libraries, scripting/interpreter infrastructure, and server-rendered app integration with modern frontend runtimes.
-- C systems development: secure daemon and networking-oriented control-plane tooling for low-footprint operational environments.
-- Parsing and compilation methods: tokenizer/parser pipelines, staged processing flows, AST-oriented interpreter design, and language tooling.
+- Perl platform engineering: legacy and production module ecosystems for networking, auth/crypto, SQL/data layers, parsing, and operational automation.
+- C systems and compilation development: secure daemons, networking-oriented control-plane tooling, and compiled language/runtime components for low-footprint operational environments.
+- Parsing and compiler methodology: rapid tokenizer/parser and AST pipeline prototyping in PHP, then C-oriented implementation/hardening when performance and runtime control matter.
 - Applied math and geometry: grid/vector transformations, 3D model pipeline utilities, coordinate conversions, and data normalization workflows.
 - Python tooling and automation: data conversion pipelines, geometry/vectorization scripts, and format transformation utilities.
 - AI workflow engineering: custom GPT instruction-set design, prompt/system organization, and conversation-to-structured-prompt tooling.
