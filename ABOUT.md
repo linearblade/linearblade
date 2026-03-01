@@ -19,3 +19,10 @@ I build low-level, production-oriented software systems with an emphasis on comp
 - Designing and shipping reusable software foundations.
 - Stabilizing legacy codebases with incremental modernization.
 - Building custom runtimes/toolchains where off-the-shelf frameworks are too rigid.
+
+## Contact
+
+- Website: [m7.org](https://m7.org)
+- X: [@thegrimscalper](https://x.com/thegrimscalper)
+- GitHub: [github.com/linearblade](https://github.com/linearblade)
+- Business inquiries: [legal@m7.org](mailto:legal@m7.org)
