@@ -1,5 +1,7 @@
 # Siglatch
 
+[![Siglatch Logo](./assets/siglatch-logo.png)](https://github.com/linearblade/siglatch)
+
 `siglatch` is a security-first C daemon for cryptographically authenticated control over connectionless protocols (especially UDP). It is designed for operators who need low-overhead, scriptable remote control with minimal exposure: secure packet validation, revocable access workflows, and deterministic behavior in hostile network environments.
 
 Start here: [`siglatch` repository](https://github.com/linearblade/siglatch).
