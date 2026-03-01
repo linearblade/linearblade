@@ -41,7 +41,7 @@ Source snapshot:
 |---|---|---|---|
 | [`m7BootStrap`](https://github.com/linearblade/m7BootStrap) | Runtime package manager/loader | Active/supporting | Dynamic loading and unloading of modules/content/packages; depends on `m7Fetch` |
 | [`m7Fetch`](https://github.com/linearblade/m7Fetch) | Fetch/network toolkit | Active/supporting | HTTP/spec/module fetch tools used by `m7BootStrap` |
-| [`m7-js-session-normalizer`](https://github.com/linearblade/m7-js-session-normalizer) | Session abstraction/normalizer | Active | Normalizes auth/session providers into a consistent app-facing session shape (wired in TileSphere shell via `SessionFactory`) |
+| [`m7-js-session-normalizer`](https://github.com/linearblade/m7-js-session-normalizer) | Session abstraction/normalizer | Active | Normalizes auth/session providers into a consistent app-facing session shape |
 
 ### Other JavaScript Projects
 
