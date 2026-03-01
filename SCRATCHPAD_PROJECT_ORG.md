@@ -1,41 +1,51 @@
-# Scratchpad: M7 As An Emergent Frontend Framework
+# Scratchpad: M7 Project Page Draft
 
-Working framing:
-M7 JS is converging into a framework, even though it was built bottom-up from primitives.
+Draft only. Do not promote yet.
 
-Core idea:
-Build complex browser applications without adopting a monolithic frontend framework.
+## M7: Emergent Frontend Framework
 
-## Root Positioning
+M7 is converging into a framework from the bottom up: primitives first, runtime composition second, app framework layer on top.
 
-M7 is a framework-light browser architecture:
-- composable primitives
-- runtime module loading
-- explicit lifecycle control
-- opt-in subsystems instead of all-in framework lock-in
+The goal is to build complex browser applications without full framework lock-in.
 
-## JavaScript Framework Stack (Grouped By Layer)
+## Start Here
 
-### 1) Foundation Runtime
+- Core runtime: [`m7-js-lib`](https://github.com/linearblade/m7-js-lib)
+- Showcase app framework: [`m7-js-lib-app-active-tags`](https://github.com/linearblade/m7-js-lib-app-active-tags)
+- Runtime package loading: [`m7BootStrap`](https://github.com/linearblade/m7BootStrap)
+- Systems track (C): [`siglatch`](https://github.com/linearblade/siglatch)
 
-Purpose:
-Base singleton `lib` runtime that everything else can attach to.
+## Framework Model
+
+M7 JS architecture:
+- Foundation runtime (`lib`)
+- Primitive modules (DOM, observation, timing, logging, workspace)
+- Runtime orchestration (dynamic loading and fetch tools)
+- App framework layer (ActiveTags and similar runtimes)
+- Tooling and support utilities
+
+## JavaScript Stack By Layer
+
+### Foundation Runtime
+
+Description:
+Singleton utility runtime that other modules attach to.
 
 Repos:
-- [`m7-js-lib`](https://github.com/linearblade/m7-js-lib) (core runtime)
+- [`m7-js-lib`](https://github.com/linearblade/m7-js-lib)
 
-### 2) App Framework Layer
+### App Framework Layer
 
-Purpose:
-Higher-level app orchestration built on top of the core runtime and primitives.
+Description:
+Higher-level orchestration for interactive browser apps.
 
 Repos:
-- [`m7-js-lib-app-active-tags`](https://github.com/linearblade/m7-js-lib-app-active-tags) (showcase app framework runtime)
+- [`m7-js-lib-app-active-tags`](https://github.com/linearblade/m7-js-lib-app-active-tags)
 
-### 3) Primitive Layer (Framework Building Blocks)
+### Primitive Layer
 
-Purpose:
-Reusable low-level browser primitives that define behavior contracts.
+Description:
+Low-level composable building blocks for browser behavior and control.
 
 Repos:
 - [`m7-js-lib-primitive-dom-eventdelegator`](https://github.com/linearblade/m7-js-lib-primitive-dom-eventdelegator)
@@ -44,50 +54,47 @@ Repos:
 - [`m7-js-lib-primitive-log`](https://github.com/linearblade/m7-js-lib-primitive-log)
 - [`m7-js-workspace`](https://github.com/linearblade/m7-js-workspace)
 
-### 4) Runtime Orchestration And Loading
+### Runtime Orchestration
 
-Purpose:
-Dynamic loading/unloading, package lifecycle control, and runtime fetch/network utilities.
+Description:
+Dynamic loading/unloading and network fetch/spec/module tooling for runtime-managed apps.
 
 Repos:
-- [`m7BootStrap`](https://github.com/linearblade/m7BootStrap) (runtime package manager/loader)
-- [`m7Fetch`](https://github.com/linearblade/m7Fetch) (fetch/network/spec/module loading)
+- [`m7BootStrap`](https://github.com/linearblade/m7BootStrap)
+- [`m7Fetch`](https://github.com/linearblade/m7Fetch)
 
-### 5) Developer Tooling And Inspection
+Dependency note:
+- `m7BootStrap` depends on `m7Fetch`.
 
-Purpose:
-Inspect large runtime object graphs and support discovery in big API surfaces.
+### Tooling And Support
+
+Description:
+Inspection and cross-cutting utilities used across projects.
 
 Repos:
 - [`m7-js-lib-tree`](https://github.com/linearblade/m7-js-lib-tree)
+- [`m7-js-session-normalizer`](https://github.com/linearblade/m7-js-session-normalizer)
+- [`PageCement`](https://github.com/linearblade/PageCement)
 
-### 6) Cross-Cutting Utility Modules
+### Legacy
 
-Purpose:
-Modules used across apps for specialized concerns that are not full app frameworks.
-
-Repos:
-- [`m7-js-session-normalizer`](https://github.com/linearblade/m7-js-session-normalizer) (session abstraction/normalization)
-- [`PageCement`](https://github.com/linearblade/PageCement) (viewport stabilization, zoom/scroll control)
-
-### 7) Legacy / Superseded
-
-Purpose:
-Historical modules kept for reference or compatibility.
+Description:
+Superseded modules retained for reference/compatibility.
 
 Repos:
-- [`m7-js-lib-098`](https://github.com/linearblade/m7-js-lib-098) (superseded by `m7-js-lib`)
+- [`m7-js-lib-098`](https://github.com/linearblade/m7-js-lib-098)
 
-## Systems Track (Separate From JS Framework Stack)
+## Systems Track (C)
 
-Purpose:
-Low-level C systems components that complement the JS ecosystem but are not browser framework modules.
+Description:
+Low-level systems components that complement the JS framework ecosystem.
 
 Repos:
 - [`siglatch`](https://github.com/linearblade/siglatch)
 
-## Next Pass Candidates
+## Current Focus
 
-- Collapse this into a publish-ready `PROJECTS.md` with the same layer model.
-- Add a one-line "depends on" field under each repo.
-- Add status tags: `active`, `supporting`, `legacy`.
+- Finish and stabilize `m7-js-lib`.
+- Showcase architecture via `m7-js-lib-app-active-tags`.
+- Keep runtime loading model (`m7BootStrap` + `m7Fetch`) central.
+- Expand systems track with additional C repositories.
