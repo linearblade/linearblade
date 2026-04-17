@@ -17,9 +17,18 @@ m7
 │   │   │   │   Link: https://github.com/linearblade/m7-js-lib-primitive-log
 │   │   │   │   Purpose: (none)
 │   │   │   └── interval
-│   │   │       Name: m7-js-lib-interval
-│   │   │       Link: https://github.com/linearblade/m7-js-lib-interval
+│   │   │       Name: m7-js-lib-primitive-interval
+│   │   │       Link: https://github.com/linearblade/m7-js-lib-primitive-interval
 │   │   │       Purpose: Precise, cancelable timers & schedulers
+│   │   ├── app
+│   │   │   ├── single-page
+│   │   │   │   Name: m7-js-lib-app-single-page
+│   │   │   │   Link: https://github.com/linearblade/m7-js-lib-app-single-page
+│   │   │   │   Purpose: Framework-light single-page navigation with delegated clicks, partial page loading, and browser back/forward support.
+│   │   │   └── popstatemanager
+│   │   │       Name: m7-js-lib-app-popstatemanager
+│   │   │       Link: https://github.com/linearblade/m7-js-lib-app-popstatemanager
+│   │   │       Purpose: Browser history and popstate service for keyed SPA restores and handler dispatch.
 │   │   ├── tree                    # Specialized inspector tool
 │   │   │   Name: m7-js-lib-tree
 │   │   │   Link: https://github.com/linearblade/m7-js-lib-tree
@@ -37,6 +46,10 @@ m7
 │       │   Name: m7-js-session-normalizer
 │       │   Link: https://github.com/linearblade/m7-js-session-normalizer
 │       │   Purpose: (none)
+│       ├── dpop
+│       │   Name: m7-js-dpop
+│       │   Link: https://github.com/linearblade/m7-js-dpop
+│       │   Purpose: Small browser-side DPoP helper for generating, storing, recovering, and using request-bound proof JWTs.
 │       ├── bootstrap
 │       │   Name: m7BootStrap
 │       │   Link: https://github.com/linearblade/m7BootStrap

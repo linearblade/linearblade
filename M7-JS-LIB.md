@@ -14,6 +14,8 @@ It is the most user-facing flag bearer of the M7 stack: deterministic DOM workfl
 
 - [`m7-js-lib`](https://github.com/linearblade/m7-js-lib): Core singleton runtime (`lib`) that the framework stack builds on.
 - [`m7-js-lib-app-active-tags`](https://github.com/linearblade/m7-js-lib-app-active-tags): Flagship app-layer runtime built on top of `m7-js-lib`.
+- [`m7-js-lib-app-single-page`](https://github.com/linearblade/m7-js-lib-app-single-page): Framework-light SPA navigation layer for delegated clicks, partial page loading, and browser back/forward support.
+- [`m7-js-lib-app-popstatemanager`](https://github.com/linearblade/m7-js-lib-app-popstatemanager): Browser history and popstate service used by the SPA layer and ActiveTags for keyed restore handling.
 - [`m7-js-lib-primitive-dom-eventdelegator`](https://github.com/linearblade/m7-js-lib-primitive-dom-eventdelegator): DOM event delegation primitive for selector-routed behavior.
 - [`m7-js-lib-primitive-dom-changeobserver`](https://github.com/linearblade/m7-js-lib-primitive-dom-changeobserver): DOM change observation primitive for structured mutation reporting.
 - [`m7-js-lib-primitive-interval`](https://github.com/linearblade/m7-js-lib-primitive-interval): Interval/scheduling primitive for controlled async recurring work.
@@ -25,6 +27,7 @@ It is the most user-facing flag bearer of the M7 stack: deterministic DOM workfl
 
 - [`m7BootStrap`](https://github.com/linearblade/m7BootStrap): Runtime package manager for loading, mounting, and unloading modules/content.
 - [`m7Fetch`](https://github.com/linearblade/m7Fetch): Fetch/network/spec/module loading toolkit used by `m7BootStrap`.
+- [`m7-js-dpop`](https://github.com/linearblade/m7-js-dpop): Small browser-side DPoP helper for generating, storing, recovering, and using request-bound proof JWTs.
 - [`m7-js-session-normalizer`](https://github.com/linearblade/m7-js-session-normalizer): Session abstraction utility for normalized app-facing session state.
 
 ### UI Survival Utility

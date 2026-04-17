@@ -34,8 +34,16 @@ The heart of M7 — modular primitives under `lib.primitive.*` namespace (dashes
   (No description yet — lightweight logging primitive)
 
 - **lib.primitive.interval**  
-  [m7-js-lib-interval](https://github.com/linearblade/m7-js-lib-interval)  
+  [m7-js-lib-primitive-interval](https://github.com/linearblade/m7-js-lib-primitive-interval)  
   Precise, cancelable timers & schedulers
+
+- **lib.app.single-page**  
+  [m7-js-lib-app-single-page](https://github.com/linearblade/m7-js-lib-app-single-page)  
+  Framework-light single-page navigation with delegated clicks, partial page loading, and browser back/forward support
+
+- **lib.app.popstatemanager**  
+  [m7-js-lib-app-popstatemanager](https://github.com/linearblade/m7-js-lib-app-popstatemanager)  
+  Browser history and popstate service used to keep keyed SPA restores and handler dispatch aligned
 
 - **lib.tree**  
   [m7-js-lib-tree](https://github.com/linearblade/m7-js-lib-tree)  
@@ -55,6 +63,10 @@ Older m7-prefixed utilities — still useful, but not yet migrated to full `lib.
 - **session-normalizer**  
   [m7-js-session-normalizer](https://github.com/linearblade/m7-js-session-normalizer)  
   (No description yet — session/cookie/state normalization)
+
+- **dpop**  
+  [m7-js-dpop](https://github.com/linearblade/m7-js-dpop)  
+  Small browser-side DPoP helper for generating, storing, recovering, and using request-bound proof JWTs
 
 - **bootstrap**  
   [m7BootStrap](https://github.com/linearblade/m7BootStrap)  

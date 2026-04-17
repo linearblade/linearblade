@@ -29,6 +29,13 @@ Source snapshot:
 |---|---|---|---|
 | [`m7-js-lib-app-active-tags`](https://github.com/linearblade/m7-js-lib-app-active-tags) | Showcase app runtime | Active focus | Deterministic workflow orchestration for DOM components |
 
+### App Services
+
+| Project | Role | Status | Notes |
+|---|---|---|---|
+| [`m7-js-lib-app-single-page`](https://github.com/linearblade/m7-js-lib-app-single-page) | SPA navigation layer | Active | Framework-light single-page navigation with delegated clicks, partial page loading, and back/forward support |
+| [`m7-js-lib-app-popstatemanager`](https://github.com/linearblade/m7-js-lib-app-popstatemanager) | History/popstate service | Active | Keyed browser history and popstate dispatch used by the SPA layer and ActiveTags |
+
 ### Primitives And Tooling
 
 | Project | Role | Status | Notes |
@@ -46,6 +53,7 @@ Source snapshot:
 |---|---|---|---|
 | [`m7BootStrap`](https://github.com/linearblade/m7BootStrap) | Runtime package manager/loader | Active/supporting | Dynamic loading and unloading of modules/content/packages; depends on `m7Fetch` |
 | [`m7Fetch`](https://github.com/linearblade/m7Fetch) | Fetch/network toolkit | Active/supporting | HTTP/spec/module fetch tools used by `m7BootStrap` |
+| [`m7-js-dpop`](https://github.com/linearblade/m7-js-dpop) | Browser auth/security helper | Active | Generates, stores, recovers, and uses request-bound DPoP proof JWTs in browser contexts |
 | [`m7-js-session-normalizer`](https://github.com/linearblade/m7-js-session-normalizer) | Session abstraction/normalizer | Active | Normalizes auth/session providers into a consistent app-facing session shape |
 
 ### Other JavaScript Projects
